@@ -1,9 +1,18 @@
 package org.zj;
 
-public class ZheBanChaRuSort {
+/**
+ * 折半插入排序
+ * 
+ * @author zhangjin
+ *
+ */
+public class BinsertSort {
 
 	public static void sort(int[] elements) {
 		int size = elements.length;
+		if (size <= 1) {
+			return;
+		}
 		int position, key;
 		for (int i = 1; i < size; i++) {
 			key = elements[i];
