@@ -1,7 +1,7 @@
 package org.zj;
 
 /**
- * 折半插入排序
+ * 插入排序之折半插入排序
  * 
  * @author zhangjin
  *
